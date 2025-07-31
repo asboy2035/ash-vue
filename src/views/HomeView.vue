@@ -1,10 +1,12 @@
 <script setup lang="ts">
   import Card from '@/components/layout/Card.vue'
   import CardTitle from '@/components/layout/CardTitle.vue'
+  import NavBar from '@/components/premade/navbar/NavBar.vue'
+  import ContentView from '@/components/navigation/ContentView.vue'
 </script>
 
 <template>
-  <div class="homeView">
+  <ContentView id="homeView">
     <Card>
       <CardTitle
         title="You did it!"
@@ -12,7 +14,9 @@
       />
       <p>This is ash's Vue template.</p>
     </Card>
-  </div>
+
+    <NavBar />
+  </ContentView>
 </template>
 
 <style scoped>

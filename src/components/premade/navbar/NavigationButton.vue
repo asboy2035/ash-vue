@@ -4,7 +4,7 @@ import { Icon } from "@iconify/vue"
 defineProps<{
   link: string
   text?: string
-  icon?: string
+  icon: string
 }>()
 </script>
 
