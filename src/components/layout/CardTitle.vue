@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import {Icon} from "@iconify/vue"
-import HStack from "@/components/layout/HStack.vue"
+  import { Icon } from "@iconify/vue"
+  import HStack from "@/components/layout/HStack.vue"
 
-defineProps<{
-  title: string
-  icon: string
-}>()
+  defineProps<{
+    title: string
+    icon: string
+  }>()
 </script>
 
 <template>

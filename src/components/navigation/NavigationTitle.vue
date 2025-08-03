@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount } from "vue"
 import HStack from "@/components/layout/HStack.vue"
-import {ProgressiveBlur} from 'vue-progressive-blur'
+import { ProgressiveBlur } from 'vue-progressive-blur'
 import InteriorItem from '@/components/layout/InteriorItem.vue'
 
 defineProps<{

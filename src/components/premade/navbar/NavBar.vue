@@ -28,4 +28,5 @@
     --interior-radius: 2rem
     flex-direction: row
     z-index: 20
+    padding: 0.75rem
 </style>

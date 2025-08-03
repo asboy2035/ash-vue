@@ -1,12 +1,12 @@
 <script setup lang="ts">
-  import {ProgressiveBlur} from 'vue-progressive-blur'
+  import { ProgressiveBlur } from 'vue-progressive-blur'
 </script>
 
 <template>
   <h1 class="hidden">Your CSS is disabled!</h1>
   <img
     id="siteBackground"
-    src="@/visuals/PageBackground.svg"
+    src="/PageBackground.svg"
     alt="Background" aria-hidden="true"
   />
 
